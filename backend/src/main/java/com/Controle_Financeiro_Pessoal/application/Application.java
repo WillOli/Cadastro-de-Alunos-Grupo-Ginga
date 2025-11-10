@@ -1,4 +1,4 @@
-package com.Controle_Financeiro_Pessoal;
+package com.Controle_Financeiro_Pessoal.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
