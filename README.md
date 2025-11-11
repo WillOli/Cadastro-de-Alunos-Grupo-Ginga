@@ -9,8 +9,8 @@ Backend para gestão de alunos, graduações e mensalidades do Grupo de Capoeira
 
 ## Variáveis de ambiente (Windows)
 Foram definidas:
-- `MYSQL_USER=root`
-- `MYSQL_PASSWORD=Contatovg1*`
+- `MYSQL_USER`
+- `MYSQL_PASSWORD`
 
 Opcionalmente, você pode definir:
 - `MYSQL_HOST` (padrão `localhost`)
