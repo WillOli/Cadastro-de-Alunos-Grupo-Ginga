@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 
 @Entity
-@Table(name = "usuarios", indexes = {
+@Table(name = "tb_usuarios", indexes = {
         @Index(name = "uk_usuario_username", columnList = "username", unique = true)
 })
 public class Usuario {

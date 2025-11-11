@@ -5,7 +5,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 @Entity
-@Table(name = "graduacoes", indexes = {
+@Table(name = "tb_graduacoes", indexes = {
         @Index(name = "idx_graduacao_ordem", columnList = "ordem", unique = true)
 })
 public class Graduacao {

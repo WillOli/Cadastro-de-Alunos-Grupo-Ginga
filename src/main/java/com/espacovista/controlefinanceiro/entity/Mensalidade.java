@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "mensalidades", uniqueConstraints = {
+@Table(name = "tb_mensalidades", uniqueConstraints = {
         @UniqueConstraint(name = "uk_mensalidade_aluno_mes_ano", columnNames = {"aluno_id", "ano", "mes"})
 }, indexes = {
         @Index(name = "idx_mens_aluno", columnList = "aluno_id"),

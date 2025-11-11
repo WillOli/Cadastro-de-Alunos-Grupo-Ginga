@@ -7,7 +7,7 @@ import jakarta.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "alunos", indexes = {
+@Table(name = "tb_alunos", indexes = {
         @Index(name = "idx_aluno_nome", columnList = "nome_completo"),
         @Index(name = "idx_aluno_status", columnList = "status_aluno"),
         @Index(name = "idx_aluno_graduacao", columnList = "graduacao_atual_id")

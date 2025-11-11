@@ -5,7 +5,7 @@ import jakarta.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "historico_graduacoes", indexes = {
+@Table(name = "tb_historico_graduacoes", indexes = {
         @Index(name = "idx_hist_aluno", columnList = "aluno_id"),
         @Index(name = "idx_hist_graduacao", columnList = "graduacao_id")
 })
